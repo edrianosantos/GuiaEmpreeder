@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#61575b5b"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.edrsantos.fivethings.ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="@dimen/text_margin"-->
+    <!--android:text="@string/large_text" />-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleApp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp"
+                android:background="#04dbcc"
+                android:paddingBottom="6dp"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:text="@string/app_title"
+                android:textColor="#000"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/llOp1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/screen_border_white"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <Button
+                    android:id="@+id/btnOp1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/btn_style"
+                    android:gravity="center"
+                    android:onClick="opcaoOne"
+                    android:text="@string/opcao_um_title"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txtConteudoOp1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="@string/opcao_um"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llOp2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/screen_border_white"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <Button
+                    android:id="@+id/btnOp2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_style"
+                    android:gravity="center"
+                    android:onClick="opcaoTwo"
+                    android:padding="8dp"
+                    android:text="@string/opcao_dois_title"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txtConteudoOp2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:padding="8dp"
+                    android:text="@string/opcao_dois"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llOp3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/screen_border_white"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <Button
+                    android:id="@+id/btnOp3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/btn_style"
+                    android:gravity="center"
+                    android:onClick="opcaoThree"
+                    android:padding="8dp"
+                    android:text="@string/opcao_tres_title"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txtConteudoOp3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="@string/opcao_tres"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llOp4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/screen_border_white"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <Button
+                    android:id="@+id/btnOp4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/btn_style"
+                    android:gravity="center"
+                    android:onClick="opcaoFour"
+                    android:padding="8dp"
+                    android:text="@string/opcao_quatro_title"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txtConteudoOp4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="@string/opcao_quatro"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llOp5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/screen_border_white"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <Button
+                    android:id="@+id/btnOp5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/btn_style"
+                    android:gravity="center"
+                    android:onClick="opcaoFive"
+                    android:padding="8dp"
+                    android:text="@string/opcao_cinco_title"
+                    android:textColor="#000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txtConteudoOp5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="@string/opcao_cinco"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left"
+                android:text="Fonte: http://exame.abril.com.br/pme/noticias/5-coisas-que-todo-empreendedor-precisa-aprender"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.v4.widget.NestedScrollView>

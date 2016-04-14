@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Guia Empreender</string>
+    <string name="app_title">5 coisas que todo empreendedor precisa aprender</string>
+
+    <string name="opcao_um_title">Ter uma boa visão de negócio</string>
+    <string name="opcao_um">Quem é o seu cliente? Quais são os seus concorrentes? De acordo com especialistas, vale investir tempo na elaboração de um plano de negócios, pois esse documento pode auxiliar o pequeno empresário a mapear oportunidades e responder estas perguntas.
+
+“Ele pode fazer um curso de modelagem de negócio, é um passo-a-passo que pode modelar a ideia. Claro que, à medida que for crescendo, é importante ter uma formalização na educação”, explica Saade.</string>
+
+    <string name="opcao_dois_title">Dominar as finanças da empresa</string>
+    <string name="opcao_dois">Saber como precificar adequadamente o seu produto ou serviço e determinar quanto precisa de capital para levar o negócio adiante são algumas habilidades que não devem ser negligenciadas.
+
+“Fica muito suscetível ao erro e acerto. Pode acabar gerando muito prejuízo financeiro por conta de um cálculo de fluxo de caixa equivocado”, exemplifica Martins. Por isso, aprender a metodologia e o uso correto de algumas ferramentas pode ajudar a deixar sua empresa sempre no verde. </string>
+
+    <string name="opcao_tres_title">Noções de marketing</string>
+    <string name="opcao_tres">Existem alguns termos de marketing que todo empreendedor precisa saber. Ao conhecer os jargões técnicos, é possível compreender melhor o mercado e quais são as melhores ações que podem ser trabalhadas para promover a empresa ou o produto.
+
+Para Martins, tomar uma decisão sem base pode ser muito arriscado. “Possíveis indicadores podem diminuir os riscos do negócio”, explica. </string>
+
+    <string name="opcao_quatro_title">Saber se planejar</string>
+    <string name="opcao_quatro">Ao planejar estrategicamente os próximos meses ou anos da empresa, o empreendedor pode, aos poucos, ir se adaptando à realidade. A dificuldade está justamente em alinhar todas as áreas do negócio e o que precisará ser executado por cada uma delas durante o período determinado.
+
+Saade explica que existem cursos de planejamento estratégico de curta duração ou pós-graduação para quem deseja se aprofundar no assunto. </string>
+
+    <string name="opcao_cinco_title">Ter capacidade de ação</string>
+    <string name="opcao_cinco">Liderar a equipe de funcionários, ter uma boa relação com os fornecedores, cuidar da agenda e da parte operacional da empresa são algumas atividades que fazem parte da rotina de um pequeno empresário.“Não tem curso específico para isso, mas existem cursos de gestão do tempo e cursos de liderança”, recomenda Saade. </string>
+    <string name="title_activity_scrolling">Empreendedor</string>
+    <string name="action_settings">Settings</string>
+    <string name="about"> O Guia Empreender é um aplicativo feito com intuito de ajudar Empreendedores iniciantes com 5 dicas importantes.\n\n Foi desenvolvido como projeto final do Curso Android for Beginners, disponibilizado pela Google e a Udacity e organizado pelo grupo GDGJP.</string>
+
+</resources>

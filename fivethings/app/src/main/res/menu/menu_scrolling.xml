@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:br.com.edrsantos.fivethings="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.edrsantos.fivethings.ScrollingActivity">
+
+    <item
+        android:id="@+id/mni_rating"
+        android:title="Avaliar"
+        android:visible="false"
+        br.com.edrsantos.fivethings:showAsAction="ifRoom"
+        android:icon="@android:drawable/btn_star_big_off"
+        android:orderInCategory="1"  />
+
+    <item
+        android:id="@+id/mni_sobre"
+        android:title="Sobre"
+        android:visible="false"
+        br.com.edrsantos.fivethings:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:orderInCategory="2"  />
+
+    <!--<item-->
+        <!--android:icon="@android:drawable/ic_menu_more"-->
+        <!--android:title="Opções"-->
+        <!--android:orderInCategory="100"-->
+        <!--br.com.edrsantos.fivethings:showAsAction="ifRoom">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/mni_rating"-->
+                <!--android:title="@string/rating"-->
+                <!--android:icon="@android:drawable/btn_star_big_off"-->
+                <!--android:orderInCategory="100"-->
+                <!--br.com.edrsantos.fivethings:showAsAction="ifRoom"/>-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>
